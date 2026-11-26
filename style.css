@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080e1c;
+    color: white;
+}
+
+/* Nav bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: #080e1c;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    width: 100%;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Home Page Styles */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    background-color: #00357a;
+    border-radius: 0.7rem;
+    margin: 2rem 1rem;
+}
+
+.hero h1{
+    padding-bottom: 1rem;
+    margin-bottom:1.2rem;
+    margin-right: 0.5rem;
+    font-size: 3.7rem;
+    font-weight: bold;
+    width: 50%;
+}
+
+.hero p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    width: 50%;
+}
+
+.hero-image {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-image img {
+    width: 450px;
+    max-width: 100%;
+    height: auto;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #00357a;
+    border-radius: 0.7rem;
+    margin: 2rem 1rem;
+}
+
+.quotes p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.modules {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem 2rem;
+}   
+
+
+.modules-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    width: 100%;
+}
+
+
+.modules p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.modules strong{
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.module-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #00357a;
+    border-radius: 0.7rem;
+    margin: 1rem;
+    width: 100%;
+}
+
+.module-card h3{
+    background-color: #00357a;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #4575b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    width: 100%;
+}
+
+.cta h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cta p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+/*Learn Page Styles */
+.learn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    width: 100%;
+}
+
+.learn h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.learn p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+
+.course{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #00357a;
+    border-radius: 0.7rem;
+    margin: 2.5rem;
+    width: 100%;
+    
+}
+
+.course h3{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+
+.course p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+
+
+/*Challenges Page Styles */
+.challenges {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    width: 100%;
+}
+
+.challenges h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.challenges p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.challenge-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    width: 100%;
+}
+
+.challenge-list h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.challenge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #00357a;
+    border-radius: 0.7rem;
+    margin: 2.5rem;
+    width: 100%;
+}
+
+.challenge h2{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+
+.challenge p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+/*Achievements Page Styles */
+
+.achievements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    width: 100%;
+}
+
+.achievements h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.achievements p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 2rem;
+}
+
+.achievement-types{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    width: 100%;
+}
+
+.badges, .XP{
+    flex:1 ;
+    text-align: center;
+}
+
+.badges h2{
+    font-size:2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.badges p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 2rem;
+}
+
+
+.XP h2{
+    font-size:2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.XP p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 1rem;
+}
+
+/*Fundamentals Page Styles */
+
+.fundamentals {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    width: 100%;
+}
+
+.fundamentals h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.fundamentals p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 2rem;
+}
+
+.fundamentals-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    width: 100%;
+}
+
+.sub-section-fundamentals{
+    flex:1 ;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    width: 75%;
+    background-color: #00357a;
+    border-radius: 0.7rem;
+    
+}
+
+.sub-section-fundamentals h2{
+    font-size:2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sub-section-fundamentals p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 2rem;
+}
+
+
+
+
+
+/*Tools Page Styles */
+
+.tools {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    width: 100%;
+}
+
+.tools h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.tools p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 2rem;
+}
+
+.tools-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    width: 100%;
+}
+
+.sub-section-tools{
+    flex:1 ;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    width: 75%;
+    background-color: #00357a;
+    border-radius: 0.7rem;
+    
+}
+
+.sub-section-tools h2{
+    font-size:2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sub-section-tools p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 2rem;
+}
+
+
+
+
+
